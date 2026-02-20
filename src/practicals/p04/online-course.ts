@@ -33,6 +33,6 @@ export class OnlineCourse {
     }
 
     public getCourseStatus(): string {
-        return this.isOpen ? "Open" : Closed;
+        return this.isOpen ? "Open" : "Closed";
     }
 }
