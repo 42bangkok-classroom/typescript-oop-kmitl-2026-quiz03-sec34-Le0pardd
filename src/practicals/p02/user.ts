@@ -1,5 +1,4 @@
 export class User {
-
     private firstname!: string;
     private lastname!: string;
     private age!: number;
@@ -23,6 +22,6 @@ export class User {
     }
 
     getFullName(): string {
-        return `${this.firstname} ${this.lastname}`;
+        return `${this.firstname} ${this.lastname}`.trim();
     }
 }
